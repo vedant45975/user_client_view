@@ -16,6 +16,8 @@ Project:
 client: A ForeignKey to the Client model. The related_name='projects' allows you to access Project objects from a Client instance (e.g., client.projects.all()).
 users: A ManyToManyField to the User model, as a single project can be assigned to multiple users, and a single user can be assigned to multiple projects. related_name='projects' is used to access projects from a User instance.
 created_by: A ForeignKey to the User who created the project.
+
+
 Run Migrations:
 Bash
 python manage.py makemigrations
