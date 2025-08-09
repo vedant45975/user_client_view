@@ -19,14 +19,17 @@ created_by: A ForeignKey to the User who created the project.
 
 
 Run Migrations:
-Bash
+
 python manage.py makemigrations
+
 python manage.py migrate
+
 Create a superuser: This will be your initial User for testing.
-Bash
+
 python manage.py createsuperuser
+
 Run the development server:
-Bash
+
 python manage.py runserver
 
 Example API Requests:
